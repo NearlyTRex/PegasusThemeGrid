@@ -93,8 +93,9 @@ Item {
             visible: parent.status != Image.Ready
             font.bold: true
             font.capitalization: Font.AllUppercase
-            font.pixelSize: vpx(36)
+            font.pixelSize: vpx(24)
             font.family: globalFonts.condensed
+            wrapMode: Text.WordWrap
         }
     }
 }
